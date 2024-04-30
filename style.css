@@ -1,0 +1,71 @@
+body {
+  background-image: url('suede-450-mm-architextures.jpg');
+  background-repeat: repeat;
+}
+
+p {
+  font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: ghostwhite;
+  transition: font-size ease-in-out .1s;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+p:hover {
+  font-size: 33px;
+}
+
+h1 {
+  font-family: "Dekko", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  -webkit-animation:spin 4s linear infinite;
+  animation:spin 8s linear infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes spin { 
+  0% { -webkit-transform: rotate(8deg); }
+  100% { -webkit-transform: rotate(-8deg); }
+}
+
+@keyframes spin { 
+  0% { 
+    -webkit-transform: rotate(8deg); 
+    transform:rotate(8deg); 
+  } 
+  100% { 
+    -webkit-transform: rotate(-8deg); 
+    transform:rotate(-8deg); 
+  }  
+}
+
+h2 {
+  font-family: verdana;
+}
+
+div {
+  font-family: Arial;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: ghostwhite;
+  transition: font-size ease-in-out .1s;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+div:hover {
+  font-size: 33px;
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
