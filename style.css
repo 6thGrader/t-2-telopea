@@ -20,6 +20,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
+  color: ghostwhite;
 }
 
 @-webkit-keyframes spin { 
@@ -40,6 +41,7 @@ h1 {
 
 h2 {
   font-family: verdana;
+  color: ghostwhite;
 }
 
 div {
@@ -58,3 +60,4 @@ h1 {text-align: center;}
 h2 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
+button {text-align: center;}
