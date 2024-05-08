@@ -1,0 +1,51 @@
+:root {
+  --max-width: 45rem;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > div {
+  max-width: var(--max-width);
+}
+
+body > div > h2 {
+  overflow-wrap: break-word;
+}
+
+label {
+  white-space: nowrap;
+}
+
+label > small {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+#doseeTabs {
+  margin-top: 0.1em;
+  /* override mini-css */
+  height: inherit;
+  white-space: normal;
+}
+
+#helpTab > .hide {
+  display: none;
+}
+
+#hardwareTab,
+#optionsTab,
+#helpTab {
+  max-width: var(--max-width);
+}
+
+.radio-inline {
+  white-space: nowrap;
+}
+
+span.asterisk {
+  color: red;
+}
